@@ -1,0 +1,4 @@
+name	url	description	platform	tags	license	note
+Scoop	https://scoop.sh	Package manager for Windows	windows-os	⭐favorite, package-manager, cli	MIT or UNLICENSE	_NULL
+WinGet	https://github.com/microsoft/winget-cli	Package manager for Windows from Microsoft	windows-os	⭐favorite, package-manager, cli	MIT	_NULL
+Chocolatey 	https://chocolatey.org	Package manager for Windows	windows-os	package-manager, cli	Apache 2.0	_NULL
