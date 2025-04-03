@@ -6,9 +6,9 @@ const URL =
 
 export function RawButton() {
   return (
-    <Button variant="ghost" size="icon">
-      <a href={URL} target="_blank">
-        <FileCode2 />
+    <Button variant="ghost" size="icon" aria-label="Raw file">
+      <a href={URL} target="_blank" title="Raw file">
+        <FileCode2 aria-hidden />
       </a>
     </Button>
   );

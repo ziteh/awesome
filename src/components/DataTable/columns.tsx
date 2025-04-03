@@ -63,10 +63,14 @@ export const columns: ColumnDef<App>[] = [
     header: "網頁",
     accessorKey: "url",
     cell: ({ row }) => {
+      const name: string = row.getValue("name");
       const url: string = row.getValue("url");
       return (
-        <a href={url} target="_blank" rel="noopener noreferrer">
-          <ExternalLink className="h-[1.2rem] w-[1.2rem] scale-100 transition-all" />
+        <a href={url} target="_blank" rel="noopener noreferrer" title={name}>
+          <ExternalLink
+            className="h-[1.2rem] w-[1.2rem] scale-100 transition-all"
+            aria-hidden
+          />
         </a>
       );
     },
