@@ -1,0 +1,19 @@
+---
+// Click button, get confetti!
+// Styled by Tailwind :)
+import { Button as UiButton } from "@/components/ui/button"
+---
+
+<UiButton
+>
+	<slot />
+</UiButton>
+
+<script>
+	import confetti from 'canvas-confetti';
+	const button = document.body.querySelector('button');
+
+	if (button) {
+		button.addEventListener('click', () => confetti());
+	}
+</script>
