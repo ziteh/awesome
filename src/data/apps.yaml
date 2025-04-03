@@ -92,6 +92,7 @@
     - GUI
     - CAD
   license: LGPL-2.0
+
 - name: Inkscape
   url: "https://inkscape.org/"
   description: 向量繪圖

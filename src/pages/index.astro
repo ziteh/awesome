@@ -3,6 +3,7 @@ import "@/styles/global.css";
 import { ModeToggle } from "@/components/ModeToggle";
 import AppTable from "@/components/AppTable";
 import { GitHubButton } from "@/components/GitHubButton";
+import { RawButton } from "@/components/RawButton";
 
 import { loadYamlData } from "@/lib/loadYaml";
 const apps = loadYamlData();
@@ -53,6 +54,7 @@ const apps = loadYamlData();
     <div class="top-0 p-4 flex justify-between w-full">
       <h1 class="text-xl sm:text-2xl font-bold">Awesome App</h1>
       <div class="flex items-center gap-1">
+        <RawButton client:load />
         <GitHubButton client:load />
         <ModeToggle client:load />
       </div>
