@@ -1,51 +1,44 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "type": "array",
-    "items": {
-        "type": "object",
-        "properties": {
-            "name": {
-                "type": "string"
-            },
-            "description": {
-                "type": "string"
-            },
-            "url": {
-                "type": "string",
-                "format": "uri"
-            },
-            "platform": {
-                "type": "array",
-                "items": {
-                    "type": "string"
-                },
-                "minItems": 1
-            },
-            "tags": {
-                "type": "array",
-                "items": {
-                    "type": "string"
-                }
-            },
-            "favorite": {
-                "type": "boolean"
-            },
-            "license": {
-                "type": "string"
-            },
-            "note": {
-                "type": "string",
-                "nullable": true
-            }
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "url": {
+        "type": "string",
+        "format": "uri"
+      },
+      "platform": {
+        "type": "array",
+        "items": {
+          "type": "string"
         },
-        "required": [
-            "name",
-            "description",
-            "url",
-            "platform",
-            "tags",
-            "license"
-        ],
-        "additionalProperties": false
-    }
+        "minItems": 1
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "favorite": {
+        "type": "boolean"
+      },
+      "license": {
+        "type": "string"
+      },
+      "note": {
+        "type": "string",
+        "nullable": true
+      }
+    },
+    "required": ["name", "description", "url", "platform", "tags", "license"],
+    "additionalProperties": false
+  }
 }
