@@ -6,10 +6,7 @@ export default function AppTable() {
     {
       name: "Astro",
       description: "Build faster websites with less code",
-      url: {
-        repo: "https://github.com/withastro/astro",
-        website: "https://astro.build",
-      },
+      url: "https://astro.build",
       platform: ["web", "server"],
       tags: ["frontend", "backend"],
       license: "",
@@ -17,10 +14,7 @@ export default function AppTable() {
     {
       name: "Astro",
       description: "Build faster websites with less code",
-      url: {
-        repo: "https://github.com/withastro/astro",
-        website: "https://astro.build",
-      },
+      url: "https://astro.build",
       platform: ["web", "server"],
       tags: ["frontend", "backend"],
       license: "",
