@@ -1,4 +1,11 @@
 name	url	description	platform	tags	license	note
 Scoop	https://scoop.sh	Package manager for Windows	windows-os	⭐favorite, package-manager, cli	MIT or UNLICENSE	_NULL
 WinGet	https://github.com/microsoft/winget-cli	Package manager for Windows from Microsoft	windows-os	⭐favorite, package-manager, cli	MIT	_NULL
-Chocolatey 	https://chocolatey.org	Package manager for Windows	windows-os	package-manager, cli	Apache 2.0	_NULL
+Chocolatey 	https://chocolatey.org	Package manager for Windows	windows-os	package-manager, cli	Apache-2.0	_NULL
+winstall	https://winstall.app/	A web app for browsing WinGet apps	browser	⭐favorite, package-manager, web-app	GPL-3.0	_NULL
+Rufus	https://rufus.ie/en	Create bootable USB drives	windows-os	⭐favorite, flash images, gui	GPL-3.0	_NULL
+balenaEtcher	https://etcher.io	Flash OS images to SD cards and USB drivers	windows-os, linux-os, mac-os	⭐favorite, flash images, gui	Apache-2.0	_NULL
+KiCad	https://www.kicad.org/	PCB layout EDA	windows-os, linux-os, mac-os	⭐favorite, cad	GPL-3.0	_NULL
+FreeCAD	https://www.freecad.org/	Parametric 3D modeler	windows-os, linux-os, mac-os	⭐favorite, cad	LGPL-2.0+	_NULL
+Inkscape	https://inkscape.org/	Vector graphics editor	windows-os, linux-os, mac-os	⭐favorite, vector-graphics	GPL-2.0+	_NULL
+Shotcut	https://shotcut.org/	Video editor	windows-os, linux-os, mac-os	⭐favorite, video	GPL-3.0	_NULL
