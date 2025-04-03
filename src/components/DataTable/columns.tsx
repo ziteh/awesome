@@ -28,16 +28,16 @@ const getBadges = (items: string[]) => {
 };
 
 export const columns: ColumnDef<App>[] = [
-  {
-    header: "",
-    accessorKey: "favorite",
-    cell: ({ row }) => {
-      const isFavorite: boolean | undefined = row.getValue("favorite");
-      return isFavorite ? (
-        <Star className="h-[1.2rem] w-[1.2rem] scale-100 transition-all" />
-      ) : null;
-    },
-  },
+  // {
+  //   header: "",
+  //   accessorKey: "favorite",
+  //   cell: ({ row }) => {
+  //     const isFavorite: boolean | undefined = row.getValue("favorite");
+  //     return isFavorite ? (
+  //       <Star className="h-[1.2rem] w-[1.2rem] scale-100 transition-all" />
+  //     ) : null;
+  //   },
+  // },
   {
     header: "名稱",
     accessorKey: "name",
@@ -108,14 +108,14 @@ export const columns: ColumnDef<App>[] = [
     accessorKey: "description",
   },
   {
-    header: "平台",
-    accessorKey: "platform",
-    cell: ({ row }) => getBadges(row.getValue("platform")),
-  },
-  {
     header: "標籤",
     accessorKey: "tags",
     cell: ({ row }) => getBadges(row.getValue("tags")),
+  },
+  {
+    header: "平台",
+    accessorKey: "platform",
+    cell: ({ row }) => getBadges(row.getValue("platform")),
   },
   {
     header: "授權許可",

@@ -3,6 +3,9 @@ import "@/styles/global.css";
 import { ModeToggle } from "@/components/ModeToggle";
 import AppTable from "@/components/AppTable";
 import { GitHubButton } from "@/components/GitHubButton";
+
+import { loadYamlData } from "@/lib/loadYaml";
+const apps = loadYamlData();
 ---
 
 <!-- shadcn/ui dark theme -->
@@ -34,7 +37,7 @@ import { GitHubButton } from "@/components/GitHubButton";
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- <link rel="icon" type="image/svg+xml" href="/favicon.svg" /> -->
     <meta name="generator" content={Astro.generator} />
     <title>Awesome App</title>
   </head>
@@ -49,7 +52,7 @@ import { GitHubButton } from "@/components/GitHubButton";
     </div>
 
     <div class="grid place-items-center content-center px-4">
-      <AppTable client:load />
+      <AppTable client:load data={apps} />
     </div>
   </body>
 </html>

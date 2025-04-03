@@ -1,0 +1,119 @@
+# yaml-language-server: $schema=./apps-schema.json
+
+- name: Scoop
+  url: "https://scoop.sh"
+  description: Windows 套件管理器
+  platform:
+    - Windows
+  favorite: true
+  tags:
+    - CLI
+    - 套件管理
+  license: MIT or UNLICENSE
+
+- name: WinGet
+  url: "https://github.com/microsoft/winget-CLI"
+  description: Windows 套件管理器
+  platform:
+    - Windows
+  favorite: true
+  tags:
+    - CLI
+    - 套件管理
+  license: MIT
+
+- name: Chocolatey
+  url: "https://chocolatey.org"
+  description: Windows 套件管理器
+  platform:
+    - Windows
+  tags:
+    - CLI
+    - 套件管理
+  license: Apache-2.0
+
+- name: winstall
+  url: "https://winstall.app/"
+  description: 瀏覽 WinGet 應用程式
+  platform:
+    - Browser
+  favorite: true
+  tags:
+    - GUI
+    - 套件管理
+  license: GPL-3.0
+
+- name: Rufus
+  url: "https://rufus.ie/en"
+  description: 建立可開機 USB 隨身碟
+  platform:
+    - Windows
+  favorite: true
+  tags:
+    - GUI
+    - 燒錄映像檔
+  license: GPL-3.0
+
+- name: balenaEtcher
+  url: "https://etcher.io"
+  description: 燒錄系統映像檔到 SD 卡或 USB 隨身碟
+  platform:
+    - Windows
+    - Linux
+    - macOS
+  favorite: true
+  tags:
+    - GUI
+    - 燒錄映像檔
+  license: Apache-2.0
+
+- name: KiCad
+  url: "https://www.kicad.org/"
+  description: 電路板 PCB layout EDA
+  platform:
+    - Windows
+    - Linux
+    - macOS
+  favorite: true
+  tags:
+    - GUI
+    - CAD
+  license: GPL-3.0
+
+- name: FreeCAD
+  url: "https://www.freecad.org/"
+  description: 參數式/工程 3D 建模
+  platform:
+    - Windows
+    - Linux
+    - macOS
+  favorite: true
+  tags:
+    - GUI
+    - CAD
+  license: LGPL-2.0
+- name: Inkscape
+  url: "https://inkscape.org/"
+  description: 向量繪圖
+  platform:
+    - Windows
+    - Linux
+    - macOS
+  favorite: true
+  tags:
+    - GUI
+    - 向量圖
+  license: GPL-2.0
+
+- name: Shotcut
+  url: "https://shotcut.org/"
+  description: 影片剪輯
+  platform:
+    - Windows
+    - Linux
+    - macOS
+  favorite: true
+  tags:
+    - GUI
+    - 影片
+  license: GPL-3.0
