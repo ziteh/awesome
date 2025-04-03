@@ -41,6 +41,9 @@ export const columns: ColumnDef<App>[] = [
   {
     header: "名稱",
     accessorKey: "name",
+    cell: ({ row }) => (
+      <span className="font-bold">{row.getValue("name")}</span>
+    ),
     // cell: ({ row }) => {
     //   const name: string = row.getValue("name");
     //   const url: string = row.getValue("url");

@@ -1,7 +1,11 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
+
+body {
+  font-family: "Inter", "Noto Sans TC", sans-serif;
+}
 
 :root {
   --radius: 0.625rem;
