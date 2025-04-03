@@ -2,6 +2,7 @@
 import "@/styles/global.css";
 import { ModeToggle } from "@/components/ModeToggle";
 import AppTable from "@/components/AppTable";
+import { GitHubButton } from "@/components/GitHubButton";
 ---
 
 <!-- shadcn/ui dark theme -->
@@ -35,14 +36,14 @@ import AppTable from "@/components/AppTable";
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
-    <title>App List</title>
+    <title>Awesome App</title>
   </head>
 
   <body class="min-h-screen">
     <div class="top-0 p-4 flex justify-between w-full">
-      <h1 class="text-xl sm:text-2xl font-bold">App List</h1>
-      <div class="flex items-center gap-2">
-        <a href="https://github.com/ziteh/awesome" class="underline">GitHub</a>
+      <h1 class="text-xl sm:text-2xl font-bold">Awesome App</h1>
+      <div class="flex items-center gap-1">
+        <GitHubButton client:load />
         <ModeToggle client:load />
       </div>
     </div>
