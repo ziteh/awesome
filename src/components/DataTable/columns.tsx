@@ -41,6 +41,20 @@ export const columns: ColumnDef<App>[] = [
   {
     header: "名稱",
     accessorKey: "name",
+    // cell: ({ row }) => {
+    //   const name: string = row.getValue("name");
+    //   const url: string = row.getValue("url");
+    //   return (
+    //     <a
+    //       href={url}
+    //       target="_blank"
+    //       rel="noopener noreferrer"
+    //       className="hover:underline underline-offset-2 "
+    //     >
+    //       {name}
+    //     </a>
+    //   );
+    // },
   },
   {
     header: "網頁",
@@ -54,6 +68,7 @@ export const columns: ColumnDef<App>[] = [
       );
     },
   },
+
   // {
   //   header: "連結",
   //   accessorKey: "url",
@@ -106,8 +121,8 @@ export const columns: ColumnDef<App>[] = [
     header: "授權許可",
     accessorKey: "license",
   },
-  {
-    header: "備註",
-    accessorKey: "note",
-  },
+  // {
+  //   header: "備註",
+  //   accessorKey: "note",
+  // },
 ];

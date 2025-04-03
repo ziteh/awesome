@@ -35,13 +35,20 @@ import AppTable from "@/components/AppTable";
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
-    <title>Astro + TailwindCSS</title>
+    <title>App List</title>
   </head>
 
-  <body>
-    <div class="grid place-items-center h-screen content-center">
-      <ModeToggle client:load />
-      <AppTable />
+  <body class="min-h-screen">
+    <div class="top-0 p-4 flex justify-between w-full">
+      <h1 class="text-xl sm:text-2xl font-bold">App List</h1>
+      <div class="flex items-center gap-2">
+        <a href="https://github.com/ziteh/awesome" class="underline">GitHub</a>
+        <ModeToggle client:load />
+      </div>
+    </div>
+
+    <div class="grid place-items-center content-center px-4">
+      <AppTable client:load />
     </div>
   </body>
 </html>
