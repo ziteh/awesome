@@ -3,8 +3,7 @@
 - name: Scoop
   url: "https://scoop.sh"
   description: Windows 套件管理器
-  platform:
-    - Windows
+  category: localApp
   favorite: true
   tags:
     - CLI
@@ -14,8 +13,7 @@
 - name: WinGet
   url: "https://github.com/microsoft/winget-CLI"
   description: Windows 套件管理器
-  platform:
-    - Windows
+  category: localApp
   favorite: true
   tags:
     - CLI
@@ -25,8 +23,7 @@
 - name: Chocolatey
   url: "https://chocolatey.org"
   description: Windows 套件管理器
-  platform:
-    - Windows
+  category: localApp
   tags:
     - CLI
     - 套件管理
@@ -35,8 +32,7 @@
 - name: winstall
   url: "https://winstall.app/"
   description: 瀏覽 WinGet 應用程式
-  platform:
-    - Browser
+  category: webApp
   favorite: true
   tags:
     - GUI
@@ -46,8 +42,7 @@
 - name: Rufus
   url: "https://rufus.ie/en"
   description: 建立可開機 USB 隨身碟
-  platform:
-    - Windows
+  category: localApp
   favorite: true
   tags:
     - GUI
@@ -57,10 +52,7 @@
 - name: balenaEtcher
   url: "https://etcher.io"
   description: 燒錄系統映像檔到 SD 卡或 USB 隨身碟
-  platform:
-    - Windows
-    - Linux
-    - macOS
+  category: localApp
   favorite: true
   tags:
     - GUI
@@ -70,10 +62,7 @@
 - name: KiCad
   url: "https://www.kicad.org/"
   description: 電路板 PCB layout EDA
-  platform:
-    - Windows
-    - Linux
-    - macOS
+  category: localApp
   favorite: true
   tags:
     - GUI
@@ -83,10 +72,7 @@
 - name: FreeCAD
   url: "https://www.freecad.org/"
   description: 參數式/工程 3D 建模
-  platform:
-    - Windows
-    - Linux
-    - macOS
+  category: localApp
   favorite: true
   tags:
     - GUI
@@ -96,10 +82,7 @@
 - name: Inkscape
   url: "https://inkscape.org/"
   description: 向量繪圖
-  platform:
-    - Windows
-    - Linux
-    - macOS
+  category: localApp
   favorite: true
   tags:
     - GUI
@@ -109,12 +92,62 @@
 - name: Shotcut
   url: "https://shotcut.org/"
   description: 影片剪輯
-  platform:
-    - Windows
-    - Linux
-    - macOS
+  category: localApp
   favorite: true
   tags:
     - GUI
     - 影片
   license: GPL-3.0
+
+- name: 全端開發人員天梯
+  url: "https://fullstackladder.dev/blog/"
+  description: 各種全端開發內容
+  category: blog
+  favorite: true
+  tags:
+    - 網頁技術
+
+- name: MyApollo
+  url: "https://myapollo.com.tw/"
+  description: 各種後端開發內容
+  category: blog
+  favorite: true
+  tags:
+    - 網頁技術
+    - Python
+    - AI
+
+- name: Wiwi 官大為的貼文和筆記
+  url: "https://wiwi.blog/"
+  description: 官大為本身是鋼琴家，但是他可能比很多工程師還更工程師
+  category: blog
+  favorite: true
+  tags:
+    - 生活
+
+- name: 小鍵盤展示間
+  url: "https://small-keyboard.blogspot.com/"
+  description: 有許多機械鍵盤
+  category: blog
+  favorite: true
+  tags:
+    - 生活
+    - 3C
+
+- name: Interrupt
+  url: "https://interrupt.memfault.com/"
+  description: 有許多嵌入式和韌體相關的內容
+  category: blog
+  favorite: true
+  tags:
+    - 嵌入式系統
+    - 韌體
+
+- name: Huli’s blog
+  url: "https://blog.huli.tw/"
+  description: 有許多網頁前端和資安領域的內容
+  category: blog
+  favorite: true
+  tags:
+    - 網頁技術
+    - 資安
