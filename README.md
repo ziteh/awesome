@@ -1,8 +1,8 @@
 # Awesome
 
-Awesome lists for me.
+Awesome list for me.
 
-[Apps](./src/data/apps.yaml)
+[List](./src/data/list.yaml)
 
 ## Usage
 
@@ -13,5 +13,5 @@ pnpm dev
 
 ## License
 
-- For [Apps YAML](./src/data/apps.yaml) file: [CC0](./LICENSE-CC0)
+- For [List YAML](./src/data/list.yaml) file: [CC0](./LICENSE-CC0)
 - For other files: [MIT](./LICENSE-MIT)

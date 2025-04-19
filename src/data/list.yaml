@@ -1,4 +1,5 @@
 # yaml-language-server: $schema=./apps-schema.json
+# SPDX license identifier: CC0-1.0
 
 - name: Scoop
   url: "https://scoop.sh"

@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { FileCode2 } from "lucide-react";
 
 const URL =
-  "https://raw.githubusercontent.com/ziteh/awesome/refs/heads/main/src/data/apps.yaml";
+  "https://raw.githubusercontent.com/ziteh/awesome/refs/heads/main/src/data/list.yaml";
 
 export function RawButton() {
   return (
