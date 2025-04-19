@@ -1,6 +1,6 @@
 import { type ColumnDef } from "@tanstack/react-table";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
+// import { Button } from "@/components/ui/button";
 
 import { Star, ExternalLink } from "lucide-react";
 
@@ -8,11 +8,19 @@ export type App = {
   name: string;
   description: string;
   url: string;
-  platform: string[];
+  category: string;
   tags: string[];
   favorite?: boolean;
   license: string;
   note?: string;
+};
+
+const categoryMap: {
+  [key: string]: string;
+} = {
+  localApp: "本機應用程式",
+  webApp: "網頁應用程式",
+  blog: "Blog",
 };
 
 const getBadges = (items: string[]) => {
@@ -115,14 +123,18 @@ export const columns: ColumnDef<App>[] = [
     accessorKey: "description",
   },
   {
+    header: "分類",
+    accessorKey: "category",
+    cell: ({ row }) => {
+      const category: string = row.getValue("category");
+      let text = categoryMap[category] || "??????";
+      return <span>{text}</span>;
+    },
+  },
+  {
     header: "標籤",
     accessorKey: "tags",
     cell: ({ row }) => getBadges(row.getValue("tags")),
-  },
-  {
-    header: "平台",
-    accessorKey: "platform",
-    cell: ({ row }) => getBadges(row.getValue("platform")),
   },
   {
     header: "授權許可",

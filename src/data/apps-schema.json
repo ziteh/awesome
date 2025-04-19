@@ -14,12 +14,8 @@
         "type": "string",
         "format": "uri"
       },
-      "platform": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        },
-        "minItems": 1
+      "category": {
+        "type": "string"
       },
       "tags": {
         "type": "array",
@@ -31,14 +27,21 @@
         "type": "boolean"
       },
       "license": {
-        "type": "string"
+        "type": "string",
+        "nullable": true
       },
       "note": {
         "type": "string",
         "nullable": true
       }
     },
-    "required": ["name", "description", "url", "platform", "tags", "license"],
+    "required": [
+      "name",
+      "description",
+      "url",
+      "category",
+      "tags"
+    ],
     "additionalProperties": false
   }
 }
