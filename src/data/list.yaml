@@ -100,6 +100,16 @@
     - 影片
   license: GPL-3.0
 
+- name: Horusec
+  url: "https://horusec.io/"
+  description: 多語言靜態程式分析工具
+  category: localApp
+  favorite: true
+  tags:
+    - CLI
+    - 軟體開發
+  license: Apache-2.0
+
 - name: 全端開發人員天梯
   url: "https://fullstackladder.dev/blog/"
   description: 各種全端開發內容
