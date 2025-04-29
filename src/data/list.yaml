@@ -162,3 +162,14 @@
   tags:
     - 網頁技術
     - 資安
+
+- name: Remotion
+  url: "https://remotion.dev"
+  description: 使用 React 和 TypeScript 製作影片
+  category: localApp
+  favorite: true
+  tags:
+    - GUI
+    - 網頁技術
+    - 多媒體
+  license: Free or Company
