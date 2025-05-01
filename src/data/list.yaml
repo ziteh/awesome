@@ -173,3 +173,12 @@
     - 網頁技術
     - 多媒體
   license: Free or Company
+
+- name: Gea-Suan Lin's BLOG
+  url: "https://blog.gslin.org/"
+  description: 各自技術資訊分享，包含一些 Hacker News 的內容
+  category: blog
+  favorite: true
+  tags:
+    - 軟體開發
+    - 網頁技術
