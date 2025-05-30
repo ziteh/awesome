@@ -190,6 +190,13 @@
   favorite: true
   tags:
     - GUI
-    - 軟體開發
-  license: Apache-2.0
+    
+- name: Beyond XSS：探索網頁前端資安宇宙
+  url: "https://aszx87410.github.io/beyond-xss/"
+  description: 各種前端資安的技術，包含 XSS、CSRF、旁路攻擊...等
+  category: blog # TODO
+  favorite: true
+  tags:
+    - 網頁技術
+    - 資安
   
