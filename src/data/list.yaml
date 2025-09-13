@@ -182,3 +182,21 @@
   tags:
     - 軟體開發
     - 網頁技術
+
+- name: tree.nathanfriend.com
+  url: https://tree.nathanfriend.com/
+  description: 資料夾樹狀結構文字區塊編輯器
+  category: webApp
+  favorite: true
+  tags:
+    - GUI
+    
+- name: Beyond XSS：探索網頁前端資安宇宙
+  url: "https://aszx87410.github.io/beyond-xss/"
+  description: 各種前端資安的技術，包含 XSS、CSRF、旁路攻擊...等
+  category: blog # TODO
+  favorite: true
+  tags:
+    - 網頁技術
+    - 資安
+  
